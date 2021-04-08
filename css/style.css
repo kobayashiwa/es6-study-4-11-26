@@ -116,7 +116,6 @@ nav ul li a {
 	background: #1C293F;
 }
 .toggle.bisible {
-	top: 22px;
 }
 .toggle:focus:not(:focus-visible) {
   outline: none;
