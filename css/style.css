@@ -212,15 +212,9 @@ nav ul li a {
 .toggle-menu.active {
 	transform: translateX(0%);
 }
-@media screen and (max-width: 1199px) {
-	.menu-phenol {
-		display: none;
-	}
-}
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 979px) {
 	.top-header {
-		height: 88px;
-		padding: 16px 30px;
+		height: 90px;
 	}
 	.top-header.bisible {
 		height: 56px;
