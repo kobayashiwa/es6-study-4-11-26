@@ -67,7 +67,7 @@ ul, li {
 	position: absolute;
 	width: 183px;
 	height: 48px;
-	top: 45px;
+	top: 40px;
 	left: 80px;
 	display: flex;
 	align-items: flex-start;
@@ -76,6 +76,9 @@ ul, li {
 	height: 100%;
 }
 .head-copy {
+	position: absolute;
+	top: 95px;
+	left: 80px;
 	color: #1C293F;
 	font-size: 10px;
 	font-weight: 600;
