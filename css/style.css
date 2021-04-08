@@ -75,6 +75,9 @@ ul, li {
 .head-logo img {
 	height: 100%;
 }
+.head-copy {
+	color: #1C293F;
+}
 nav {
 	height: 100%;
 	padding-right: 60px;
