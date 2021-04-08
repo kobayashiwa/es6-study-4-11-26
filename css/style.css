@@ -77,6 +77,8 @@ ul, li {
 }
 .head-copy {
 	color: #1C293F;
+	font-size: 10px;
+	font-weight: 600;
 }
 nav {
 	height: 100%;
