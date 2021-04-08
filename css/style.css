@@ -277,9 +277,9 @@ main {
 	background: hsl(214, 97%, 23%, 0.1);
 }
 
-@media screen and (max-width: 991px) {
-	.hero-image {
-		padding-top: 88px;
+@media screen and (max-width: 979px) {
+	.CategoryHeader {
+		padding-top: 90px;
 	}
 }
 @media screen and (max-width: 767px) {
