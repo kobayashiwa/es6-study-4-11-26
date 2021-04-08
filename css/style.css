@@ -113,6 +113,7 @@ nav ul li a {
 	cursor: pointer;
 	z-index: 3;
 	transition: all .2s;
+	background: #1C293F;
 }
 .toggle.bisible {
 	top: 22px;
