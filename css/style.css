@@ -129,25 +129,20 @@ nav ul li a {
 }
 .toggle span:nth-of-type(1) {
 	top: 0;
-	left: 0;
+	left: 15px;
 	transform-origin: 0 0;
 	animation: menu-bar01-close .2s forwards;
+}
+.toggle span:nth-of-type(2) {
+	top: 20px;
+	left: 0;
+	transition: .2s;
 }
 
   
 
 
 
-
-.toggle span::before,
-.toggle span::after {
-  content: '';
-  position: absolute;
-  width: 51%;
-  height: 3px;
-  background: #fff;
-  transition: .2s;
-}
 .toggle span::before {
 	left: 0;
 	border-radius: 4px 0 0 4px;
@@ -155,10 +150,6 @@ nav ul li a {
 .toggle span::after {
 	right: 0;
 	border-radius: 0 4px 4px 0;
-}
-.toggle span:nth-of-type(1) {
-	top: 0;
-	left: 0;
 }
 .toggle span:nth-of-type(2) {
 	top: 8px;
