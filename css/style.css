@@ -173,16 +173,11 @@ nav ul li a {
 	  width: 51%;
 	  transform: rotate(45deg) translate(8px, -4px);
 	}
+	100% {
+		width: 100%;
+		transform: rotate(0deg) translate(0);
+	}
 }
-
-  
-
-
-
-
-
-
-
 .toggle-menu {
 	position: fixed;
 	top: 0;
@@ -219,6 +214,13 @@ nav ul li a {
 }
 .toggle-menu.active {
 	transform: translateY(0%);
+}
+.contact {
+	width: 48px;
+	height: 124px;
+	z-index: 2;
+	position: fixed;
+	background: #333;
 }
 @media screen and (max-width: 979px) {
 	.top-header {
