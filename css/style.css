@@ -71,6 +71,7 @@ ul, li {
 	left: 80px;
 	display: flex;
 	align-items: flex-start;
+	transition: all .2s;
 }
 .head-logo img {
 	height: 100%;
@@ -83,6 +84,10 @@ ul, li {
 	left: 80px;
 	display: flex;
 	align-items: flex-start;
+	transition: all .2s;
+}
+.head-logo-typo.bisible {
+	opacity: 0;
 }
 .head-copy {
 	position: absolute;
