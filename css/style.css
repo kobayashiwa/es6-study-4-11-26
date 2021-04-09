@@ -156,21 +156,21 @@ nav ul li a {
 }
 @keyframes menu-bar01-open {
 	0% {
-	  width: 18px;
+	  width: 9px;
 	  transform: rotate(0deg) translate(0);
 	}
 	50% {
-		width: 18px;
+		width: 9px;
 		transform: rotate(0deg) translate(0);
 	}
 	100% {
-		width: 18px;
+		width: 9px;
 		transform: rotate(45deg) translate(1px, -3px);
 	}
 }
 @keyframes menu-bar01-close {
 	0% {
-	  width: 18px;
+	  width: 9px;
 	  transform: rotate(45deg) translate(0px, 0px);
 	}
 	100% {
@@ -180,21 +180,21 @@ nav ul li a {
 }
 @keyframes menu-bar03-open {
 	0% {
-	  width: 18px;
+	  width: 9px;
 	  transform: rotate(0deg) translate(0);
 	}
 	50% {
-		width: 18px;
+		width: 9px;
 		transform: rotate(0deg) translate(0);
 	}
 	100% {
-		width: 18px;
+		width: 9px;
 		transform: rotate(45deg) translate(0px, 3px);
 	}
 }
 @keyframes menu-bar03-close {
 	0% {
-	  width: 18px;
+	  width: 9px;
 	  transform: rotate(45deg) translate(0px, 0px);
 	}
 	100% {
