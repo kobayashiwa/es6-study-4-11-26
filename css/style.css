@@ -128,7 +128,7 @@ nav ul li a {
 	background: #fff;
 }
 .toggle span:nth-of-type(1) {
-	top: 0;
+	top: 18px;
 	left: 15px;
 	transform-origin: 0 0;
 	animation: menu-bar01-close .2s forwards;
@@ -147,15 +147,15 @@ nav ul li a {
 .toggle.active span:nth-of-type(1) {
 	animation: menu-bar01-open .4s forwards;
 }
+.toggle.active span:nth-of-type(2) {
+	transform: rotate(-45deg);
+	transition-delay: .2s;
+}
 
   
 
 
 
-.toggle.active span:nth-of-type(1)::before {
-	transform: translate(4px, 4px) rotate(45deg);
-	background: #fff;
-}
 .toggle.active span:nth-of-type(1)::after {
 	transform: translate(-3px, 4px) rotate(-45deg);
 	background: #fff;
