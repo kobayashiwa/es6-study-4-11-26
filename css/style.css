@@ -104,6 +104,9 @@ nav ul li a {
 .toggle span {
   display: inline-block;
 }
+
+
+
 .toggle {
 	position: fixed;
 	top: 15px;
@@ -135,7 +138,7 @@ nav ul li a {
   position: absolute;
   width: 51%;
   height: 3px;
-  background: #191919;
+  background: #fff;
   transition: .2s;
 }
 .toggle span::before {
