@@ -124,16 +124,21 @@ nav ul li a {
 .toggle span {
 	position: absolute;
 	width: 18px;
-	height: 4px;
+	height: 2px;
 	background: #fff;
 }
-
-
-
-
-.toggle span.middle {
-	width: 50%;
+.toggle span:nth-of-type(1) {
+	top: 0;
+	left: 0;
+	transform-origin: 0 0;
+	animation: menu-bar01-close .2s forwards;
 }
+
+  
+
+
+
+
 .toggle span::before,
 .toggle span::after {
   content: '';
