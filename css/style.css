@@ -253,6 +253,18 @@ nav ul li a {
 	border-radius: 24px;
 	background: #1C293F;
 }
+.contact-icon img{
+	width: 20px;
+	height: 13px;
+	position: absolute;
+	top: 18px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+
+
+
 @media screen and (max-width: 979px) {
 	.top-header {
 		height: 90px;
