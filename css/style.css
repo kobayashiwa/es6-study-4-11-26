@@ -139,24 +139,19 @@ nav ul li a {
 	transition: .2s;
 }
 .toggle span:nth-of-type(3) {
-	right: 0;
+	right: 15px;
 	bottom: 0;
 	transform-origin: 100% 0;
 	animation: menu-bar03-close .2s forwards;
+}
+.toggle.active span:nth-of-type(1) {
+	animation: menu-bar01-open .4s forwards;
 }
 
   
 
 
 
-.toggle span::after {
-	right: 0;
-	border-radius: 0 4px 4px 0;
-}
-.toggle span:nth-of-type(3) {
-	bottom: 0;
-	left: 0;
-}
 .toggle.active span:nth-of-type(1)::before {
 	transform: translate(4px, 4px) rotate(45deg);
 	background: #fff;
