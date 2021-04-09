@@ -84,7 +84,7 @@ ul, li {
 	left: 80px;
 	display: flex;
 	align-items: flex-start;
-	transition: all .2s;
+	transition: all 1s;
 }
 .head-logo-typo.bisible {
 	opacity: 0;
@@ -96,6 +96,10 @@ ul, li {
 	color: #1C293F;
 	font-size: 10px;
 	font-weight: 600;
+	transition: all .2s;
+}
+.head-copy.bisible {
+	opacity: 0;
 }
 nav {
 	height: 100%;
