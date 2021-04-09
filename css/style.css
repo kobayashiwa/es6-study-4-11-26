@@ -168,6 +168,12 @@ nav ul li a {
 		transform: rotate(45deg) translate(8px, -4px);
 	}
 }
+@keyframes menu-bar01-close {
+	0% {
+	  width: 51%;
+	  transform: rotate(45deg) translate(8px, -4px);
+	}
+}
 
   
 
@@ -177,11 +183,6 @@ nav ul li a {
 
 
 
-
-.toggle.active span:nth-of-type(3)::after {
-	transform: translate(-3px, -7px) rotate(45deg);
-	background: #fff;
-}
 .toggle-menu {
 	position: fixed;
 	top: 0;
@@ -192,7 +193,7 @@ nav ul li a {
 	height: 135px;
 	transform: translateY(-110%);
 	transition: all .5s;
-	background: #191919;
+	background: #1C293F;
 	z-index: 2;
 	overflow: auto;
  -webkit-overflow-scrolling: touch;
