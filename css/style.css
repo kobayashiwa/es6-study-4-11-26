@@ -135,25 +135,23 @@ nav ul li a {
 }
 .toggle span:nth-of-type(2) {
 	top: 20px;
-	left: 0;
+	left: 15px;
 	transition: .2s;
+}
+.toggle span:nth-of-type(3) {
+	right: 0;
+	bottom: 0;
+	transform-origin: 100% 0;
+	animation: menu-bar03-close .2s forwards;
 }
 
   
 
 
 
-.toggle span::before {
-	left: 0;
-	border-radius: 4px 0 0 4px;
-}
 .toggle span::after {
 	right: 0;
 	border-radius: 0 4px 4px 0;
-}
-.toggle span:nth-of-type(2) {
-	top: 8px;
-	left: 0;
 }
 .toggle span:nth-of-type(3) {
 	bottom: 0;
