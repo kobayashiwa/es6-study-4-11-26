@@ -160,18 +160,18 @@ nav ul li a {
 	  transform: rotate(0deg) translate(0);
 	}
 	50% {
-		width: 51%;
+		width: 18px;
 		transform: rotate(0deg) translate(0);
 	}
 	100% {
-		width: 51%;
-		transform: rotate(45deg) translate(8px, -4px);
+		width: 18px;
+		transform: rotate(45deg) translate(1px, -3px);
 	}
 }
 @keyframes menu-bar01-close {
 	0% {
-	  width: 51%;
-	  transform: rotate(45deg) translate(8px, -4px);
+	  width: 18px;
+	  transform: rotate(45deg) translate(0px, 0px);
 	}
 	100% {
 		width: 18px;
@@ -184,18 +184,18 @@ nav ul li a {
 	  transform: rotate(0deg) translate(0);
 	}
 	50% {
-		width: 51%;
+		width: 18px;
 		transform: rotate(0deg) translate(0);
 	}
 	100% {
-		width: 51%;
-		transform: rotate(45deg) translate(-6px, 3px);
+		width: 18px;
+		transform: rotate(45deg) translate(0px, 3px);
 	}
 }
 @keyframes menu-bar03-close {
 	0% {
-	  width: 51%;
-	  transform: rotate(45deg) translate(-6px, 3px);
+	  width: 18px;
+	  transform: rotate(45deg) translate(0px, 0px);
 	}
 	100% {
 		width: 18px;
