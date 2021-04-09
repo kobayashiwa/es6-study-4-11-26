@@ -121,16 +121,16 @@ nav ul li a {
 .toggle:focus:not(:focus-visible) {
   outline: none;
 }
-
-
-
-
-
 .toggle span {
 	position: absolute;
 	width: 18px;
-	height: 3px;
+	height: 4px;
+	background: #fff;
 }
+
+
+
+
 .toggle span.middle {
 	width: 50%;
 }
