@@ -192,6 +192,12 @@ nav ul li a {
 		transform: rotate(45deg) translate(-6px, 3px);
 	}
 }
+@keyframes menu-bar03-close {
+	0% {
+	  width: 51%;
+	  transform: rotate(45deg) translate(-6px, 3px);
+	}
+}
 .toggle-menu {
 	position: fixed;
 	top: 0;
@@ -240,6 +246,7 @@ nav ul li a {
 .contact-icon {
 	width: 48px;
 	height: 48px;
+	border-radius: 24px;
 	background: #333;
 }
 @media screen and (max-width: 979px) {
