@@ -94,7 +94,7 @@ nav ul {
 }
 nav ul li {
 	padding: 0 10px;
-	
+	position: relative;
 }
 nav ul li .ja {
 	display: block;
@@ -103,6 +103,22 @@ nav ul li .ja {
 nav ul li .en {
 	display: block;
 	line-height: 26px;
+}
+nav ul li.active::before, nav ul li.active::after {
+	display: block;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 3px;
+    top: 46px;
+    background-color: #1c293f;
+    transition: opacity 0.3s ease-in-out;
+}
+nav ul li.active::before {
+	left: 10px;
+}
+nav ul li.active::after {
+	right: 10px;
 }
 nav ul li a {
 	color: #1C293F;
