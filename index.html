@@ -15,7 +15,6 @@
         <header class="top-header">
             <div class="in">
                 <div class="head-logo"><img class="head" src="img/logo.svg"></div>
-                <div class="head-logo-toggle"><img src="img/logo-toggle-menu.svg"></div>
                 <div class="head-logo-typo"><img src="img/logo-typo.svg" alt="株式会社グッドライフ"></div>
                 <div class="head-copy">働き方に合わせたオフィスをデザインする</div>
                 <nav>
@@ -43,7 +42,20 @@
             </a>
         </div>
 
-        <div class="toggle-menu"></div>
+        <div class="toggle-menu">
+            <div class="in">
+                <div class="head-logo-toggle"><img src="img/logo-toggle-menu.svg"></div>
+                <nav>
+                    <ul class="flex">
+                        <li class="active"><a href="#"><span class="ja">ホーム</span><span class="en">HOME</span></a></li>
+                        <li><a href="#"><span class="ja">私たちについて</span><span class="en">ABOUT US</span></a></li>
+                        <li><a href="#"><span class="ja">デザイン事例</span><span class="en">GALLERY</span></a></li>
+                        <li><a href="#"><span class="ja">オフィスのノウハウ</span><span class="en">KNOW-HOW</span></a></li>
+                        <li><a href="#"><span class="ja">事例のインタビュー</span><span class="en">CASE STUDY</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
         <main>
             <section class="CategoryHeader">section / CategoryHeader</section>
@@ -81,9 +93,9 @@
                 $(this).toggleClass('active');
                 
                 if ($(this).hasClass('active')) {
-                    $('.toggle-menu, .head-logo, .head-logo-toggle').addClass('active');
+                    $('.toggle-menu').addClass('active');
                 } else {
-                    $('.toggle-menu, .head-logo, .head-logo-toggle').removeClass('active');
+                    $('.toggle-menu').removeClass('active');
                 }
             });
         });
