@@ -341,6 +341,9 @@ nav ul li a {
     top: 63px;
     transition: opacity 0.3s ease-in-out;
 }
+.contact.bisible .contact-text {
+	opacity: 0;
+}
 
 
 
