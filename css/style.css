@@ -333,11 +333,14 @@ nav ul li a {
 .contact.bisible .contact-text {
 	opacity: 0;
 }
+@media screen and (max-width: 1299px) {
+	.head-logo {
+		left: 60px;
+	}
+}
 @media screen and (max-width: 979px) {
 	.top-header {
 		height: 90px;
-	}
-	.top-header.bisible {
 	}
 	.head-logo {
 		width: 200px;
