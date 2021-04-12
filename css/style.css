@@ -71,10 +71,22 @@ ul, li {
 	left: 80px;
 	display: flex;
 	align-items: flex-start;
+	z-index: 3;
 	transition: all .2s;
 }
 .head-logo img {
 	height: 100%;
+}
+.head-logo.active {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	top: 70px;
+	left: 80px;
+	display: flex;
+	align-items: flex-start;
+	z-index: 3;
+	transition: all .2s;
 }
 .head-logo-typo {
 	position: absolute;
@@ -344,11 +356,6 @@ nav ul li a {
 .contact.bisible .contact-text {
 	opacity: 0;
 }
-
-
-
-
-
 @media screen and (max-width: 979px) {
 	.top-header {
 		height: 90px;
