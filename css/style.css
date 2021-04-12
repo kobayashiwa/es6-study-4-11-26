@@ -266,29 +266,17 @@ nav ul li a {
 	overflow: auto;
  -webkit-overflow-scrolling: touch;
 }
-
-
-.toggle-menu h3 {
-	font-size: 64px;
-	margin-bottom: 60px;
-}
-.toggle-menu ul {
-	width: 25%;
-	padding: 0 15px;
-	margin-bottom: 2rem;
-}
-.toggle-menu ul li {
-	text-align: left;
-	padding-bottom: 10px;
-}
-.toggle-menu ul li.heading {
-	color: #5595aa;
-}
-.toggle-menu ul li a {
-	color: #fff;
-}
 .toggle-menu.active {
 	transform: translateY(0%);
+}
+.toggle-menu.active nav.bisible {
+	opacity: 1;
+}
+.toggle-menu.active nav ul li.active::before, .toggle-menu.active nav ul li.active::after {
+    background-color: #fff;
+}
+.toggle-menu.active nav ul li a {
+	color: #fff;
 }
 .contact {
 	width: 48px;
