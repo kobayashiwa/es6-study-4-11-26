@@ -369,6 +369,9 @@ nav ul li a {
 	.head-logo, .head-logo-typo {
 		top: 14px;
 	}
+	.head-copy {
+		top: 66px;
+	}
 	nav {
 		display: none;
 	}
