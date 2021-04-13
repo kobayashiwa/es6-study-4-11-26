@@ -378,6 +378,9 @@ nav ul li a {
 	.toggle {
 		top: 34px;
 	}
+	.contact {
+		display: none;
+	}
 	.toggle-menu h3 {
 		font-size: 60px;
 	}
