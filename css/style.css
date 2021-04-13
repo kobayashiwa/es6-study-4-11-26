@@ -74,6 +74,24 @@ ul, li {
 	z-index: 3;
 	transition: all .2s;
 }
+.head-logo.active {
+	opacity: 0;
+}
+.head-logo-toggle {
+	position: fixed;
+	width: 48px;
+	height: 48px;
+	top: 40px;
+	left: 80px;
+	display: flex;
+	align-items: flex-start;
+	z-index: 3;
+	opacity: 0;
+	transition: all .5s;
+}
+.head-logo-toggle.active {
+	opacity: 1;
+}
 .head-logo img {
 	height: 100%;
 }
@@ -336,6 +354,12 @@ nav ul li a {
 @media screen and (max-width: 1299px) {
 	.head-logo {
 		left: 60px;
+	}
+	.head-logo-toggle {
+		left: 60px;
+	}
+	.toggle {
+		right: 60px;
 	}
 }
 @media screen and (max-width: 979px) {
