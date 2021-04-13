@@ -377,6 +377,7 @@ nav ul li a {
 	}
 	.toggle-menu nav {
 		display: block;
+		padding: 90px 60px;
 	}
 	.toggle-menu nav ul {
 		height: auto;
