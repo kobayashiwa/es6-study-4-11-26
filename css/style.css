@@ -352,22 +352,13 @@ nav ul li a {
 	opacity: 0;
 }
 @media screen and (max-width: 1299px) {
-	.head-logo {
-		left: 60px;
-	}
-	.head-logo-typo {
-		left: 60px;
-	}
-	.head-logo-toggle {
+	.head-logo, .head-logo-typo, .head-copy, .head-logo-toggle {
 		left: 60px;
 	}
 	nav {
 		padding-right: 140px;
 	}
-	.toggle {
-		right: 60px;
-	}
-	.contact {
+	.toggle, .contact {
 		right: 60px;
 	}
 }
