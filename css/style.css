@@ -376,7 +376,8 @@ nav ul li a {
 		display: none;
 	}
 	.toggle {
-		top: 34px;
+		top: 21px;
+		opacity: 1;
 	}
 	.contact {
 		display: none;
