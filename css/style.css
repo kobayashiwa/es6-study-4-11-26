@@ -382,14 +382,8 @@ nav ul li a {
 	.contact {
 		display: none;
 	}
-	.toggle-menu h3 {
-		font-size: 60px;
-	}
-	.toggle-menu ul {
-		width: 50%;
-	}
-	.toggle-menu ul li {
-		font-size: 15px;
+	.toggle-menu {
+		height: 100%;
 	}
 }
 @media screen and (max-width: 679px) {
