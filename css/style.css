@@ -418,6 +418,9 @@ nav ul li a {
 	.toggle, .contact {
 		right: 24px;
 	}
+	.toggle-menu nav {
+		padding: 90px 24px;
+	}
 }
 
 /** main **/
