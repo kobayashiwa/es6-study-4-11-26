@@ -385,6 +385,8 @@ nav ul li a {
 	.toggle-menu nav ul li {
 		flex-direction: column;
 		width: 100%;
+		padding: 0;
+		margin: 1rem 0;
 	}
 	.toggle-menu nav ul li a {
 		text-align: left;
@@ -410,30 +412,6 @@ nav ul li a {
 	}
 }
 @media screen and (max-width: 679px) {
-	.top-header {
-	}
-	.top-header.bisible {
-	}
-	.head-logo {
-		width: 170px;
-		height: 30px;
-	}
-	.toggle {
-		top: 15px;
-	}
-	.toggle-menu h3 {
-		font-size: 42px;
-		margin-bottom: 40px;
-	}
-	.toggle-menu {
-		flex-direction: column;
-	}
-	.toggle-menu ul {
-		width: 100%;
-	}
-	.toggle-menu ul li {
-		font-size: 14px;
-	}
 }
 
 /** main **/
