@@ -361,6 +361,9 @@ nav ul li a {
 	.toggle {
 		right: 60px;
 	}
+	.contact {
+		right: 60px;
+	}
 }
 @media screen and (max-width: 979px) {
 	.top-header {
