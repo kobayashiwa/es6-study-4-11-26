@@ -375,7 +375,7 @@ nav ul li a {
 	nav {
 		display: none;
 	}
-	.toggle {
+	.toggle, .toggle.bisible {
 		top: 21px;
 		opacity: 1;
 	}
