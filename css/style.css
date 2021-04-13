@@ -378,6 +378,10 @@ nav ul li a {
 	.toggle-menu nav {
 		display: block;
 	}
+	.toggle-menu nav ul li {
+		flex-direction: column;
+		width: 100%;
+	}
 	.toggle-menu nav .ja{
 		display: none;
 	}
