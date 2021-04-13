@@ -382,6 +382,9 @@ nav ul li a {
 		flex-direction: column;
 		width: 100%;
 	}
+	.toggle-menu nav ul li a {
+		text-align: left;
+	}
 	.toggle-menu nav .ja{
 		display: none;
 	}
