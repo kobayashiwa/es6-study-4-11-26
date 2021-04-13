@@ -366,6 +366,9 @@ nav ul li a {
 	.top-header {
 		height: 90px;
 	}
+	.head-logo {
+		top: 14px;
+	}
 	nav {
 		display: none;
 	}
