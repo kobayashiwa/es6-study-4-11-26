@@ -412,6 +412,12 @@ nav ul li a {
 	}
 }
 @media screen and (max-width: 679px) {
+	.head-logo, .head-logo-typo, .head-copy, .head-logo-toggle {
+		left: 24px;
+	}
+	.toggle, .contact {
+		right: 24px;
+	}
 }
 
 /** main **/
