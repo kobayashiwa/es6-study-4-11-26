@@ -378,6 +378,9 @@ nav ul li a {
 	.toggle-menu nav {
 		display: block;
 	}
+	.toggle-menu nav .ja{
+		display: none;
+	}
 	.toggle, .toggle.bisible {
 		top: 21px;
 		opacity: 1;
