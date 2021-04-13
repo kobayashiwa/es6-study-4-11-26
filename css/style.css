@@ -366,7 +366,7 @@ nav ul li a {
 	.top-header {
 		height: 90px;
 	}
-	.head-logo {
+	.head-logo, .head-logo-typo {
 		top: 14px;
 	}
 	nav {
